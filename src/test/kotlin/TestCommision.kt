@@ -7,7 +7,7 @@ class TestCommision {
         val transfer = 10000
         val sumTransfer = 0
         val result = checkCommissionVKPay(sumTransfer, transfer)
-        assertEquals("Комиссия не взимается", result)
+        assertEquals("", result)
     }
 
     @Test
